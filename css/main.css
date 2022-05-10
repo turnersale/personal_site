@@ -27,8 +27,11 @@ body .container .intro {
   background-size: cover;
 }
 
-body .container .whoiam {
-  background-color: #7D5BBE;
+body .container .whoami {
+  background-image: url("../images/50k-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 body .container .projects {
@@ -58,26 +61,38 @@ body .container .places {
   margin: auto;
 }
 
-.name {
+.container2 .whiteBar {
+  margin: 0 0;
+  height: 0.05em;
+  border: none;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #ffffff));
+}
+
+.container2 .name {
   font-weight: bold;
   font-size: 5em;
   text-align: center;
   color: #ffffff;
   margin-bottom: 0em;
+  margin-top: 0em;
 }
 
-.whiteBar {
-  background-color: #ffffff;
-  height: 0.1em;
-  width: 50%;
-}
-
-.introText {
+.container2 .introText {
   font-weight: bold;
   font-size: 1.5em;
   text-align: center;
   width: 50%;
   margin: 0 auto;
   color: #ffffff;
-  margin-top: 0.5em;
+  margin-top: 0.3em;
+}
+
+.container3 {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 0;
 }

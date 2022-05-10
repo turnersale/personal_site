@@ -35,8 +35,11 @@ body {
             background-size: cover;
         }
 
-        .whoiam {
-            background-color: $secondary;
+        .whoami {
+            background-image: url("../images/50k-1.jpg");
+            background-repeat:no-repeat;
+            background-position: center center;
+            background-size: cover;
         }
 
         .projects {
@@ -66,29 +69,44 @@ body {
 .container2 {
     width: 50%;
     margin: auto;
+
+    .whiteBar {
+        margin: 0 0;
+        height: 0.05em;
+        border: none;
+        background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, $white));
+    }
     
+
+    .name {
+        font-weight: bold;
+        font-size: 5em;
+        text-align: center;
+        color: $white;
+        margin-bottom: 0em;
+        margin-top: 0em;
+    }
+    
+    .introText {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        color: $white;
+        margin-top: 0.3em;
+    }
 }
 
-.name {
-    font-weight: bold;
-    font-size: 5em;
-    text-align: center;
-    color: $white;
-    margin-bottom: 0em;
-}
+.container3 {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 0;
 
-.whiteBar {
-    background-color: $white;
-    height: 0.1em;
-    width: 50%;
-}
-
-.introText {
-    font-weight: bold;
-    font-size: 1.5em;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    color: $white;
-    margin-top: 0.5em;
+    .aboutMe {
+    }
 }

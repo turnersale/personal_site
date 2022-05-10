@@ -1,0 +1,83 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+body .container {
+  width: 100%;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+body .container section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  align-items: center;
+  justify-content: center;
+}
+
+body .container .intro {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+body .container .whoiam {
+  background-color: #7D5BBE;
+}
+
+body .container .projects {
+  background-color: #b09ad7;
+}
+
+body .container .planned {
+  background-color: #191919;
+}
+
+body .container .places {
+  background-color: #333333;
+}
+
+.fader {
+  background-color: rgba(25, 25, 25, 0.5);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  width: 50%;
+  margin: auto;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 5em;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0em;
+}
+
+.whiteBar {
+  background-color: #ffffff;
+  height: 0.1em;
+  width: 50%;
+}
+
+.introText {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  color: #ffffff;
+  margin-top: 0.5em;
+}
